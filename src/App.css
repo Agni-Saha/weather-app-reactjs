@@ -125,3 +125,9 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 25px 0;
+  }
+}

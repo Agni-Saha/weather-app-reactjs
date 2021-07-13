@@ -23,8 +23,11 @@
     width: 150px;
 }
 
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 576px) {
     .Tilt {
         display: none;
+    }
+    .logo .Page_Title {
+        padding: 2rem 0;
     }
 }
