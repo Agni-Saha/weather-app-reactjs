@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+}
+
+.logo .Page_Title {
+    color: #ff8906;
+    font-size: 4rem;
+    margin: 20px auto;
+    text-align: center;
+    padding-right: 10rem;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 5px 5px 5px #0f0e17;
+}
+
+.Tilt {
+    padding: auto;
+    padding-top: 0.5rem;
+    margin-bottom: 35px;
+    box-shadow: 1px 5px 10px 0 #0f0e17;
+}
+
+.Tilt-inner img {
+    width: 150px;
+}
+
+@media screen and (max-width: 448px) {
+    .Tilt {
+        display: none;
+    }
+}
