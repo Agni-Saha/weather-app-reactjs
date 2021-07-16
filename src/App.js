@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from "./Logo/Logo"
 import "./App.css"
 const api = {
-    key: "aee2c76fd846cbcf619b016b29962b3e",
+    key: process.env.API_KEY,
     base: "https://api.openweathermap.org/data/2.5/"
 }
 
